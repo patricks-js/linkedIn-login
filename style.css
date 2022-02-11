@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --font: 'Poppins', sans-serif;
+    --color-alt: #004182;
+    --color-bg: #0A66C2;
+    --color-text: #676767;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f2ef;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.logo img {
+    height: 2.125rem;
+}
+
+h2 {
+    font: normal normal 30px var(--font);
+}
+
+.container {
+    max-width: 570px;
+
+}
+
+.container-form {
+    height: calc(23.12125rem + 8.5rem);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 27rem;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.form-group .field1{
+    margin-bottom: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    /* margin-top: 10px; */
+}
+
+fieldset input{
+    padding: 0 5px;
+    border-radius: 3px;
+    border: 1px solid var(--color-text);
+    height: 32px;
+    margin-top: 4px;
+}
+
+fieldset input:focus{
+    border-color: #000;
+}
+
+fieldset label{
+    color: var(--color-text);
+}
+
+.form p {
+    color: var(--color-text);
+    text-align: center;
+    font: normal normal 0.6875rem var(--font);
+}
+
+.form p a {
+    color: var(--color-bg);
+}
+
+.form button {
+    height: 48px;
+    width: 100%;
+    border-radius: 24px;
+    background-color: var(--color-bg);
+    font: normal normal 0.9375rem sans-serif;
+    color: white;
+    cursor: pointer;
+    padding: 0 16px;
+    transition: background .3s;
+}
+
+.form button:hover {
+    background-color: var(--color-alt);
+}
+
+.form button.google {
+    border: 1px solid var(--color-bg);
+    background-color: white;
+    color: var(--color-bg);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.form button.google:hover {
+    outline: 1px solid var(--color-alt);
+    background-color: #ECF4FE;
+}
+
+.form button.google img{
+    width: 20px;
+}
+
+.form .division {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.form .division span{
+    width: 150px;
+    height: 1px;
+    background-color: var(--color-text)64;
+}
+
+.form .cadastro {
+    font: normal normal 0.9375rem sans-serif;
+    color: black;
+}
+
+p.container {
+    font: normal normal 13px var(--font);
+}
+
+footer {
+    height: 4rem;
+    width: 100%;
+    background-color: white;
+    padding: 0 80px;
+}
