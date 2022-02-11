@@ -170,3 +170,8 @@ footer {
     background-color: white;
     padding: 0 80px;
 }
+
+footer span {
+    color: var(--color-text);
+    margin: 0 30px;
+}
